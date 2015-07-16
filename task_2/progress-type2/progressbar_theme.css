@@ -32,13 +32,23 @@ body{
 
 }
 .progress-bar-is-active{
-    position: fixed;
-    width:170px;
+    position: absolute;
+    width:35px;
     height:24px;
-    margin: 18px 25px;
-    border-radius: 25px;
 
+    border-radius: 25px;
     background: linear-gradient(to top, #4eae00, #6dff00);
+
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes example {
+    0% {left:0px }
+    50% {left:85%}
+    100% {left:0px }
 }
 
 .progress-bar-value{
