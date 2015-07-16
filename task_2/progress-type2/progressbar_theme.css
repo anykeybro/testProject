@@ -22,7 +22,7 @@ body{
 
 .progress-bar-non-active {
     position: fixed;
-    width:230px;
+    width:290px;
     height:24px;
     margin: 18px 25px;
     border-radius: 25px;
@@ -47,7 +47,7 @@ body{
 
 @keyframes example {
     0% {left:0px }
-    50% {left:85%}
+    50% {left:88%}
     100% {left:0px }
 }
 
