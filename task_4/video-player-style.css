@@ -1,0 +1,63 @@
+div{
+    box-sizing: border-box;
+}
+
+#video-panel{
+    margin: 0 auto;
+    width: 800px;
+    height: 700px;
+    padding-bottom: 100px;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+
+}
+#video{
+    width: 100%;
+    height:100%;
+    box-sizing: border-box;
+    background: black;
+}
+
+#background-panel{
+    background: linear-gradient(to top, #161616, #535353);
+    float: left;
+    width: 100%;
+    height: 100px;
+
+}
+
+#control-panel{
+    width: 300px;
+    height:100px;
+    margin: 10px auto;
+}
+
+
+.rewind-backward{
+
+    width:64px;
+    height:64px;
+    margin: auto 10px;
+    background: url("images/rewind-backward.png") center no-repeat ;
+    background-size: 64px 64px;
+    float: left;
+
+}
+
+.play-pause{
+    width:64px;
+    height:64px;
+    margin: auto 10px;
+    background: url("images/play.png") center no-repeat;
+    background-size: 64px 64px;
+    float: left;
+}
+
+.rewind-forward{
+    width:64px;
+    height:64px;
+    margin: auto 10px;
+    background:url("images/rewind-forward.png") center no-repeat;
+    background-size: 64px 64px;
+    float: left;
+}
+
