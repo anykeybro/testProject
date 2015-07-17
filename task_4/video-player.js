@@ -21,38 +21,38 @@ Player = function (node) {
 /**
  * play or pause video
  */
-Player.prototype.playPause = function(nodeBtnPlay){
-    var btn =nodeBtnPlay.target;
-    if(this.paused){
+Player.prototype.playPause = function (nodeBtnPlay) {
+    var btn = nodeBtnPlay.target;
+    if (this.paused) {
         this.play();
         console.log('played');
-        btn.style.background="url('images/pause.png')";
+        btn.style.backgroundImage = "url('images/pause.png')";
 
-    }else{
+    } else {
         this.pause();
         console.log('pause');
-        btn.style.background="url('images/play.png')";
+        btn.style.backgroundImage = "url('images/play.png')";
     }
     console.log(btn.style.background);
 };
 
 /**
  * rewind backward
-*/
-Player.prototype.rewindBackward = function() {
-    this.currentTime-=3;
+ */
+Player.prototype.rewindBackward = function () {
+    this.currentTime -= 3;
 };
 
 /**
  * rewind forward
  */
-Player.prototype.rewindForward = function (){
-    this.currentTime+=3;
+Player.prototype.rewindForward = function () {
+    this.currentTime += 3;
 };
 
 
 videoNode = document.querySelector('#video');
-var myPlayer = new Player( videoNode );
+var myPlayer = new Player(videoNode);
 
 
 
