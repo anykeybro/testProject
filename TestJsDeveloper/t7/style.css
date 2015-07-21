@@ -1,0 +1,31 @@
+html{
+    width:100%;
+}
+
+body{
+    height:100%;
+}
+
+div{
+    width:100px;
+    height:100px;
+    position: relative;
+
+}
+
+.d1{
+    background-color: red;
+
+}
+.d2{
+    background-color: green;
+    left:50%;
+    top: 50%;
+}
+.d3{
+    background-color: blue;
+    left:50%;
+    top: 50%;
+    z-index: -1;
+
+}

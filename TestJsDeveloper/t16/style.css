@@ -1,0 +1,25 @@
+div#content{
+    width:30px;
+    height:30px;
+    background: #333;
+
+    left:100px;
+    top:100px;
+    position: fixed;
+
+    transform-origin:50px;
+    animation: circle 1s infinite linear;
+
+}
+@keyframes circle {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+#content2{
+    width:40px;
+    height:40px;
+    background: #555;
+    position: fixed;
+}

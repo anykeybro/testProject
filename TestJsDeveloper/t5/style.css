@@ -1,0 +1,17 @@
+div{
+    width:100px;
+    height:100px;
+    background-color: #444;
+    border: solid 1px #111;
+
+}
+
+div>.mainClass:hover{
+    border: solid 2px red;
+    cursor: pointer;
+}
+
+div>.mainClass:active{
+    width: 150%;
+    height: 150%;
+}
