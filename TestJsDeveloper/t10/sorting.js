@@ -32,6 +32,20 @@ function bubbleSort(arr) {
 
     return arr;
 }
+function bubbleSort2(arr) {
+    var tmp;
+    for (var j = 0; j < arr.length; j++) {
+        for (var i = j + 1; i < arr.length ; i++) {
+            if (arr[ j ] > arr[ i ]) {
+                tmp = arr[ j ];
+                arr[ j]  = arr[ i ];
+                arr[ i ] = tmp;
+            }
+        }
+    }
+
+    return arr;
+}
 
 function selectionSort( arr ){
     var min;
